@@ -1,0 +1,68 @@
+/**************
+*****BOUTON****
+**************/
+button {
+  padding: 10px;
+  width: 67px;
+  height: 45px;
+  margin-top: 10px;
+  color: rgb(112, 44, 175);
+  font-size: 20px;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+}
+button:active {
+  background-color: rgb(203, 130, 212);
+}
+
+.first-row button {
+  background: linear-gradient(
+    to bottom left,
+    rgb(192, 218, 243) -30%,
+    rgb(235, 192, 243)
+  );
+}
+.second-row button {
+  background: rgb(235, 192, 243);
+}
+.fourth-row button {
+  background: rgb(243, 192, 214);
+}
+.third-row button {
+  background: linear-gradient(
+    to top right,
+    rgb(243, 192, 214),
+    rgb(235, 192, 243)
+  );
+}
+.fifth-row button {
+  background: linear-gradient(
+    to top right,
+    rgb(243, 219, 192),
+    rgb(243, 192, 214)
+  );
+}
+
+/*************
+*CALCULATRICE*
+*************/
+.display {
+  background: linear-gradient(
+    to top right,
+    rgb(243, 219, 192),
+    rgb(243, 192, 214),
+    rgb(235, 192, 243),
+    rgb(192, 218, 243)
+  );
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
